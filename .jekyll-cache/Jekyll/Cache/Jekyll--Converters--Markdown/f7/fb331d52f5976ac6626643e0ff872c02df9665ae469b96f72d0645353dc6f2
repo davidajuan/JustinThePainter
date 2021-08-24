@@ -1,4 +1,4 @@
-<div class="hero bg--gray-light">
+I"Œ<div class="hero bg--gray-light">
     <div class="hero__contentWrapper wrapper wrapper--l">
       <div class="hero__content">
         <h1 class="hero__heading">
@@ -14,7 +14,12 @@
         </div>
       </div>
       <div class="hero__actions">
-        <img class="hero__image" src="/assets/images/hero.jpg" alt="Color consultation.">
+        <img class="hero__image" src="/assets/images/hero.jpg" alt="Color consultation." />
       </div>
     </div>
   </div>
+
+<p>Services</p>
+
+<p>Call to action</p>
+:ET

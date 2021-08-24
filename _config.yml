@@ -23,7 +23,7 @@ email: justinthepainter1@gmail.com
 description: Home Interior Painting serving the Macomb and Oakland County Area. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
+twitter_username: JustinThePainter
 github_username:  
 permalink: /:categories/:year/:month/:day/:title
 

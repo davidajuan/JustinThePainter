@@ -1,3 +1,5 @@
+.btn { padding: 10px 20px; display: inline-block; border-radius: 3px; background: #ccc; font-size: 16px; color: #333; }
+
 .footer { display: flex; flex-direction: column; }
 
 @media screen and (min-width: 900px) { .footer { flex-direction: row; justify-content: space-between; } }
@@ -14,18 +16,50 @@
 
 .footer__text { margin: 0; }
 
-.footer__icon { height: 1rem; width: 1rem; fill: gray; padding-right: 0.625rem; }
+.footer__icon { height: 1rem; width: 1rem; fill: #808080; padding-right: 0.625rem; }
 
-.footer a { color: gray; }
+.footer a { color: #808080; }
 
-.footer a:visited { color: gray; }
+.footer a:visited { color: #808080; }
 
-.footer a:hover, .footer a:hover span.username { text-decoration: none; color: gray; }
+.footer a:hover, .footer a:hover span.username { text-decoration: none; color: #808080; }
 
-.footer a:hover + .footer__icon { fill: gray; }
+.footer a:hover + .footer__icon { fill: #808080; }
 
 .site-footer { border-top-width: 2px; }
 
 .site-title:hover { text-decoration: none; }
+
+.hero { background-color: #FFFFFF; padding: 3rem 2rem; }
+
+@media all and (min-width: 768px) { .hero { min-height: 20rem; padding-bottom: 0; } }
+
+@media all and (min-width: 1055px) { .hero { padding: 6rem 3rem; } }
+
+@media all and (min-width: 1155px) { .hero { min-height: 24rem; top: -70px; } }
+
+.hero__contentWrapper { display: flex; flex-direction: column; }
+
+@media all and (min-width: 1055px) { .hero__contentWrapper { flex-direction: row; } }
+
+.hero__content { flex: 40%; }
+
+.hero__actions { flex: 60%; position: relative; }
+
+.hero__heading { font-size: 2.5rem; font-weight: 400; line-height: 1.25; margin-bottom: 1.5rem; }
+
+@media all and (min-width: 1155px) { .hero__heading { font-size: 3.5rem; } }
+
+.hero__subheading { font-size: 1.5rem; line-height: 1.25; }
+
+.hero__image { display: none; }
+
+@media all and (min-width: 768px) { .hero__image { display: block; position: relative; left: 0; } }
+
+@media all and (min-width: 1055px) { .hero__image { position: absolute; top: -25px; } }
+
+@media all and (min-width: 1155px) { .hero__image { top: 15px; } }
+
+@media all and (min-width: 1380px) { .hero__image { width: 90%; left: 45px; } }
 
 /*# sourceMappingURL=style.css.map */

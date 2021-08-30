@@ -1,0 +1,28 @@
+.flex-container {
+  display: flex;
+    flex-direction: column;
+    background-color: $white;
+    padding: 3rem 2rem;
+  
+    @media all and (min-width: $sm-breakpoint) {
+      min-height: 20rem;
+      padding-bottom: 0;
+    }
+  
+    @media all and (min-width: $lg-breakpoint) {
+      flex-direction: row;
+    }
+  
+    @media all and (min-width: $xl-breakpoint) {
+      min-height: 24rem;
+      top: -70px;
+    }
+}
+
+.column-a {
+  flex: 1;
+}
+
+.column-b {
+  flex: 1;
+}

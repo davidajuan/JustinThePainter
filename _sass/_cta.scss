@@ -1,0 +1,60 @@
+.cta {
+    background-color: $white;
+    padding: 3rem 2rem;
+    
+    @media all and (min-width: $sm-breakpoint) {
+        min-height: 20rem;
+        padding-bottom: 0;
+    }
+
+    @media all and (min-width: $lg-breakpoint) {
+    padding: 6rem 3rem;
+    }
+
+    @media all and (min-width: $xl-breakpoint) {
+    min-height: 24rem;
+    top: -70px;
+    }
+}
+
+.cta-contentWrapper {
+    display: flex;
+}
+
+.cta-content {
+    flex: 1;
+}
+
+.cta-heading {
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1.25;
+    margin-bottom: 1.5rem;
+  
+    @media all and (min-width: $xl-breakpoint) {
+      font-size: 3.5rem;
+    }
+}
+
+.cta-copy {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta-btn {
+    align-items: center;
+}
+
+.container {
+    height: 10rem;
+    position: relative;
+}
+  
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

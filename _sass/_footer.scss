@@ -41,21 +41,21 @@ $footer-breakpoint: 900px;
 .footer__icon {
   height: 1rem;
   width: 1rem;
-  fill: $gray;
+  fill: $darkergray;
   padding-right: 0.625rem;
 }
 
 .footer a {
-  color: $gray;
-  &:visited { color: $gray;}
+  color: $darkgray;
+  &:visited { color: $darkgray;}
   &:hover,
   &:hover span.username {
     text-decoration: none;
-    color: $gray;
+    color: $black;
   }
 
   &:hover + .footer__icon {
-      fill: $gray;
+      fill: $darkergray;
     
   }
 }

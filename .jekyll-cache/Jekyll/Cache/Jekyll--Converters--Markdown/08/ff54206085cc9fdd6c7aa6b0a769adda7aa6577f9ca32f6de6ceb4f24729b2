@@ -1,4 +1,4 @@
-<services class="flex-container">
+I"Ç<main class="flex-container">
 
     <section class="column-a">
        <h2>Main Content</h2> 
@@ -14,4 +14,5 @@
         </p>
     </aside>
 
-</services>
+</main>
+:ET

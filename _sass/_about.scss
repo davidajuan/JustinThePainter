@@ -1,0 +1,10 @@
+.about__image {
+    display: none;
+  
+    @media all and (min-width: $sm-breakpoint) {
+      display: block;
+      position: relative;
+      left: 0;
+      top: 20px;
+    }
+}

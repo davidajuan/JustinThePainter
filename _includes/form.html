@@ -1,1 +1,30 @@
-<p>Lead Form</p>
+<div class="form-container wrapper wrapper-xl">
+    <div style="text-align:center">
+    <h2>Request a Free Estimate</h2>
+    <p>Fill out the form below and we'll follow up within 24 hours</p>
+    </div>
+    <div class="row">
+    <div class="flex-container">
+        <div class="image-column">
+            <img src="/assets/images/form.jpg" style="width:100%">
+        </div>
+        <div class="form-column">
+            <form action="/action_page.php">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name..">
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="phone" placeholder="Your phone number..">
+            <label for="contact_time">When is the best time to contact you?</label>
+            <select id="time" name="time">
+                <option value="morning">Morning</option>
+                <option value="evening">Evening</option>
+                <option value="afternoon">Afternoon</option>
+            </select>
+            <label for="details">What are you looking to have done?</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            <input type="submit" value="Submit">
+            </form>
+        </div>
+        </div>
+    </div>
+</div>
